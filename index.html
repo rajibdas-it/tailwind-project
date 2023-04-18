@@ -52,45 +52,48 @@
             <!-- menu end -->
           </div>
           <!-- menu for mobile device -->
-          <div class="block md:hidden w-8 h-8">
-            <div class="line h-1 my-2 rounded-sm bg-white"></div>
-            <div class="line h-1 my-2 rounded-sm bg-white"></div>
-            <div class="line h-1 my-2 rounded-sm bg-white"></div>
+          <div id="mobile-bar" class="block md:hidden z-50 w-8 h-8">
+            <div class="line rounded-full my-2 h-1 bg-white"></div>
+            <div class="line rounded-full my-2 h-1 bg-white"></div>
+            <div class="line w-full rounded-full my-2 h-1 bg-white"></div>
           </div>
-          <div class="fixed w-full h-full md:w-1/2 top-0 bottom-0 right-0">
-            <!-- menu start -->
+          <div
+            id="menu"
+            class="fixed duration-700 w-full h-full top-0 bottom-0 right-[-100%] md w-full:md:w-1/2 bg-slate-800"
+          >
             <div
-              class="item text-sm font-medium leading-3 text-[#F9FAFB] cursor-pointer hover:text-violet-600 duration-500"
+              class="item mx-auto text-center py-6 text-sm font-medium leading-3 cursor-pointer hover:text-violet-600 duration-500 text-[#F9FAFB]"
             >
               Home
             </div>
             <div
-              class="item text-sm font-medium leading-3 text-[#F9FAFB] cursor-pointer hover:text-violet-600 duration-500"
+              class="item mx-auto text-center py-6 text-sm font-medium leading-3 cursor-pointer hover:text-violet-600 duration-500 text-[#F9FAFB]"
             >
               About Us
             </div>
             <div
-              class="item text-sm font-medium leading-3 text-[#F9FAFB] cursor-pointer hover:text-violet-600 duration-500"
+              class="item mx-auto text-center py-6 text-sm font-medium leading-3 cursor-pointer hover:text-violet-600 duration-500 text-[#F9FAFB]"
             >
               Service
             </div>
             <div
-              class="item text-sm font-medium leading-3 text-[#F9FAFB] cursor-pointer hover:text-violet-600 duration-500"
+              class="item mx-auto text-center py-6 text-sm font-medium leading-3 cursor-pointer hover:text-violet-600 duration-500 text-[#F9FAFB]"
             >
               Pricing
             </div>
             <div
-              class="item text-sm font-medium leading-3 text-[#F9FAFB] cursor-pointer hover:text-violet-600 duration-500"
+              class="item mx-auto text-center py-6 text-sm font-medium leading-3 cursor-pointer hover:text-violet-600 duration-500 text-[#F9FAFB]"
             >
               Blog
             </div>
+            <!-- menu-btn -->
             <div
-              class="item py-3 px-6 rounded-md btn text-sm font-medium leading-3 text-[#F9FAFB] cursor-pointer hover:text-[#ffffffac] duration-500"
+              class="item mx-auto text-center w-40 btn py-3 px-6 text-sm font-medium leading-3 rounded-md text-[#F9FAFB] cursor-pointer duration-500 hover:text-[#ffffffac]"
             >
               Contact Us
             </div>
-            <!-- menu end -->
           </div>
+          <!-- menu for mobile device -->
         </div>
       </div>
       <!-- navbar end -->

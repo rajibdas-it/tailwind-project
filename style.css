@@ -5,3 +5,7 @@
 .btn {
   background: linear-gradient(90.35deg, #2563eb 0.36%, #d946ef 201.02%);
 }
+
+.active {
+  right: 0;
+}
