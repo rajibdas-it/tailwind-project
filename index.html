@@ -10,7 +10,7 @@
   <body class="bg-[#111827] min-h-screen">
     <div class="container mx-w-[1440px] mx-auto">
       <!-- navbar start -->
-      <div class="navbar fixed w-screen">
+      <div class="navbar fixed w-screen top-0">
         <div
           class="container max-w-[1440px] mx-auto px-[2%] flex justify-between items-center py-3"
         >
@@ -55,11 +55,11 @@
           <div id="mobile-bar" class="block md:hidden z-50 w-8 h-8">
             <div class="line rounded-full my-2 h-1 bg-white"></div>
             <div class="line rounded-full my-2 h-1 bg-white"></div>
-            <div class="line w-full rounded-full my-2 h-1 bg-white"></div>
+            <div class="line rounded-full my-2 h-1 bg-white"></div>
           </div>
           <div
             id="menu"
-            class="fixed duration-700 w-full h-full top-0 bottom-0 right-[-100%] md w-full:md:w-1/2 bg-slate-800"
+            class="fixed duration-700 h-full top-0 bottom-0 right-[-100%] md w-full md:w-1/2 bg-slate-800"
           >
             <div
               class="item mx-auto text-center py-6 text-sm font-medium leading-3 cursor-pointer hover:text-violet-600 duration-500 text-[#F9FAFB]"
@@ -97,6 +97,39 @@
         </div>
       </div>
       <!-- navbar end -->
+
+      <!-- home section start  -->
+      <div
+        class="container px-[2%] min-h-screen mt-40 lg:mt-auto grid grid-cols-1 lg:grid-cols-2 justify-between items-center"
+      >
+        <div class="left col-span-1 text-white">
+          <h1 class="h1 mb-7">Virtual Reality Business Solutions</h1>
+          <p class="mb-8">
+            We have over 15 year exprience in business consultting arena. We
+            have over 15 year exprience in business consultting arena and
+            artficial intelligence.
+          </p>
+          <div class="btn__group flex gap-5">
+            <div class="btn px-10 py-5 rounded-md text-base font-medium">
+              <button>Join Us</button>
+            </div>
+            <div
+              class="watch flex text-base font-medium gap-2 items-center cursor-pointer"
+            >
+              <div class="img">
+                <img src="img/watch.png" alt="" />
+              </div>
+              <span class="">Watch video</span>
+            </div>
+          </div>
+        </div>
+        <div class="right col-span-1">
+          <img src="img/main-content-img.png" alt="" />
+        </div>
+      </div>
+      <!-- home section end  -->
+      <!-- service section start   -->
+      <!-- service section end   -->
     </div>
 
     <script src="main.js"></script>

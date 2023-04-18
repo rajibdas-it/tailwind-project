@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+* {
+  font-family: "DM Sans", sans-serif;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,4 +12,21 @@
 
 .active {
   right: 0;
+}
+
+.h1 {
+  background: linear-gradient(89.83deg, #2563eb 0.11%, #d946ef 58.65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 84px;
+  /* or 145% */
+
+  letter-spacing: 0.02em;
 }
