@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Stylish Tailwind Project</title>
   </head>
@@ -129,31 +133,124 @@
       </div>
       <!-- home section end  -->
       <!-- service section start   -->
-      <div class="container min-h-screen">
-        <div class="service-title flex flex-col justify-center w-11/12">
-          <div class="our-service text-center">
-            <h1 class="text-white text-4xl font-bold mb-8">Our Service</h1>
-            <p class="text-white w-full text-base mb-10">
-              We turn information into actionable insights We work to understand
-              your issues and are driven to ask better questions in the pursuit
-              of making work.
+      <div class="container mx-auto w-full text-center p-8 md:p-5">
+        <h1 class="font-bold text-white text-[42px] mb-8">Our Service</h1>
+        <p class="text-white mb-10">
+          We turn information into actionable insights We work to understand
+          your issues and are driven to ask better questions in the pursuit of
+          making work.
+        </p>
+        <!-- <div class="services flex gap-8 justify-center"> -->
+        <div
+          class="services grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-8"
+        >
+          <div class="card flex flex-col items-center p-8">
+            <div class="mb-5">
+              <img src="img/servise-icon.png" alt="" />
+            </div>
+            <h2 class="text-2xl font-medium text-white mb-4">
+              Order Management
+            </h2>
+            <p class="text-white mb-6">
+              Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed
+              quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.
+            </p>
+            <p class="text-white flex items-center justify-center gap-1">
+              <span class="block">Learn more</span>
+              <span class="block"
+                ><i class="bx bx-right-arrow-alt text-2xl"></i
+              ></span>
             </p>
           </div>
-          <div
-            class="services-box grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
-          >
-            <div class="service flex flex-col">
-              <div class="img">
-                <img src="img/servise-icon.png" alt="" />
-              </div>
-              <div class="service title">
-                <h1>Order Management</h1>
-              </div>
-              <p class="service-details">
-                Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed
-                quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.
-              </p>
+          <div class="card flex flex-col items-center p-8">
+            <div class="mb-5">
+              <img src="img/servise-icon2.png" alt="" />
             </div>
+            <h2 class="text-2xl font-medium text-white mb-4">
+              Social Assistant
+            </h2>
+            <p class="text-white mb-6">
+              Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed
+              quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.
+            </p>
+            <p class="text-white flex items-center justify-center gap-1">
+              <span class="block">Learn more</span>
+              <span class="block"
+                ><i class="bx bx-right-arrow-alt text-2xl"></i
+              ></span>
+            </p>
+          </div>
+          <div class="card flex flex-col items-center p-8">
+            <div class="mb-5">
+              <img src="img/servise-icon3.png" alt="" />
+            </div>
+            <h2 class="text-2xl font-medium text-white mb-4">
+              Crypto Platform
+            </h2>
+            <p class="text-white mb-6">
+              Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed
+              quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.
+            </p>
+            <p class="text-white flex items-center justify-center gap-1">
+              <span class="block">Learn more</span>
+              <span class="block"
+                ><i class="bx bx-right-arrow-alt text-2xl"></i
+              ></span>
+            </p>
+          </div>
+          <div class="card flex flex-col items-center p-8">
+            <div class="mb-5">
+              <img src="img/servise-icon4.png" alt="" />
+            </div>
+            <h2 class="text-2xl font-medium text-white mb-4">
+              Smart Trading Modules
+            </h2>
+            <p class="text-white mb-6">
+              Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed
+              quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.
+            </p>
+            <p class="text-white flex items-center justify-center gap-1">
+              <span class="block">Learn more</span>
+              <span class="block"
+                ><i class="bx bx-right-arrow-alt text-2xl"></i
+              ></span>
+            </p>
+          </div>
+          <div class="card flex flex-col items-center p-8">
+            <div class="mb-5">
+              <img src="img/servise-icon5.png" alt="" />
+            </div>
+            <h2 class="text-2xl font-medium text-white mb-4">
+              Analyzer of the News
+            </h2>
+            <p class="text-white mb-6">
+              Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed
+              quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.
+            </p>
+            <p class="text-white flex items-center justify-center gap-1">
+              <span class="block">Learn more</span>
+              <span class="block"
+                ><i class="bx bx-right-arrow-alt text-2xl"></i
+              ></span>
+            </p>
+          </div>
+          <div class="card flex flex-col items-center p-8">
+            <div class="mb-5">
+              <img src="img/servise-icon6.png" alt="" />
+            </div>
+            <h2 class="text-2xl font-medium text-white mb-4">
+              Module of Price Notification
+            </h2>
+            <p class="text-white mb-6">
+              Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed
+              quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.
+            </p>
+            <p class="text-white flex items-center justify-center gap-1">
+              <span class="block">Learn more</span>
+              <span class="block"
+                ><i class="bx bx-right-arrow-alt text-2xl"></i
+              ></span>
+            </p>
           </div>
         </div>
       </div>
